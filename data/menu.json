@@ -1,7 +1,7 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-21T20:24:32.774Z",
+  "lastUpdatedAt": "2026-09-21T20:26:03.972Z",
   "currency": "ARS",
   "totalProducts": 17,
   "categories": [
@@ -14,8 +14,8 @@
           "id": "75c04dd9-165a-4c9a-ae61-377298ddab43",
           "name": "Hamburguesa Clásica",
           "description": "Carne vacuna 180g, queso cheddar, lechuga y tomate",
-          "priceInCents": 550000,
-          "priceFormatted": "$ 5.500,00",
+          "priceInCents": 590000,
+          "priceFormatted": "$ 5.900,00",
           "imageUrl": "uploads/products/75c04dd9-165a-4c9a-ae61-377298ddab43-1789726763618.webp",
           "thumbnailUrl": "uploads/products/75c04dd9-165a-4c9a-ae61-377298ddab43-1789726763618-thumb.webp"
         },
