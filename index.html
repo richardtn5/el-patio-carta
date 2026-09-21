@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>EL PATIO — Carta Digital</title>
+  <meta name="description" content="Carta oficial de comidas y bebidas de El Patio - Silvana Tores">
+
+  <!-- Configuración de base path dinámica para GitHub Pages y entornos locales -->
+  <script>
+    (function() {
+      // Si estamos en github.io bajo un subdirectorio como /el-patio-carta/
+      if (window.location.hostname.endsWith('github.io')) {
+        const segments = window.location.pathname.split('/').filter(Boolean);
+        const repoName = segments.length > 0 ? segments[0] : 'el-patio-carta';
+        const base = document.createElement('base');
+        base.href = '/' + repoName + '/';
+        document.head.appendChild(base);
+      }
+    })();
+  </script>
+
+  <!-- Hoja de estilos con ruta relativa -->
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <div class="brand">
+        <div class="brand-icon">🍔</div>
+        <div class="brand-info">
+          <h1>EL PATIO</h1>
+          <p>Restaurante & Bar • Silvana Tores</p>
+        </div>
+      </div>
+      <div id="mesaBadge" style="display: none;" class="badge-mesa">
+        Mesa <span id="mesaNum"></span>
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Buscar platos, hamburguesas, bebidas..." autocomplete="off">
+    </div>
+  </header>
+
+  <div class="categories-bar" id="categoriesBar">
+    <button class="cat-btn active" data-cat="ALL">Todos</button>
+  </div>
+
+  <main>
+    <div id="loading" class="loading-spinner">Cargando carta oficial...</div>
+    <div id="menuContainer" style="display: none;"></div>
+  </main>
+
+  <footer>
+    <p>EL PATIO — Silvana Tores • Todos los derechos reservados</p>
+    <p style="margin-top: 4px;">Los pedidos se toman exclusivamente en mesa a través de nuestros mozos.</p>
+  </footer>
+
+  <!-- Modal Detalle de Producto -->
+  <div class="modal-backdrop" id="productModal" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-img-box">
+        <img id="modalImg" src="" alt="" style="display: none;">
+        <div id="modalImgFallback" class="card-img-placeholder">🍔</div>
+        <button class="modal-close" onclick="closeModal()" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="modal-body">
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-price" id="modalPrice"></div>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-notice">
+          ℹ️ Para ordenar este producto, por favor solicítelo al mozo que atiende su mesa.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script modularizado con ruta relativa -->
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

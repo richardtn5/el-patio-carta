@@ -1,7 +1,7 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-21T20:03:10.713Z",
+  "lastUpdatedAt": "2026-09-21T20:17:56.876Z",
   "currency": "ARS",
   "totalProducts": 17,
   "categories": [
@@ -16,8 +16,8 @@
           "description": "Carne vacuna 180g, queso cheddar, lechuga y tomate",
           "priceInCents": 550000,
           "priceFormatted": "$ 5.500,00",
-          "imageUrl": "/uploads/products/75c04dd9-165a-4c9a-ae61-377298ddab43-1789726763618.webp",
-          "thumbnailUrl": "/uploads/products/75c04dd9-165a-4c9a-ae61-377298ddab43-1789726763618-thumb.webp"
+          "imageUrl": "uploads/products/75c04dd9-165a-4c9a-ae61-377298ddab43-1789726763618.webp",
+          "thumbnailUrl": "uploads/products/75c04dd9-165a-4c9a-ae61-377298ddab43-1789726763618-thumb.webp"
         },
         {
           "id": "d5fa097c-481f-4bc5-bb3a-db9369bca0ac",
@@ -43,8 +43,8 @@
           "description": "Plato clásico para test de imágenes",
           "priceInCents": 1200000,
           "priceFormatted": "$ 12.000,00",
-          "imageUrl": "/uploads/products/a58d898d-c8d8-4512-a00f-3cbbf1839d25-1789726764923.webp",
-          "thumbnailUrl": "/uploads/products/a58d898d-c8d8-4512-a00f-3cbbf1839d25-1789726764923-thumb.webp"
+          "imageUrl": "uploads/products/a58d898d-c8d8-4512-a00f-3cbbf1839d25-1789726764923.webp",
+          "thumbnailUrl": "uploads/products/a58d898d-c8d8-4512-a00f-3cbbf1839d25-1789726764923-thumb.webp"
         },
         {
           "id": "3333885a-c4c0-4bc9-a55f-1442db20ef9d",
@@ -77,8 +77,8 @@
           "description": "Muzzarella, jamón cocido seleccionado y morrones asados",
           "priceInCents": 900000,
           "priceFormatted": "$ 9.000,00",
-          "imageUrl": "/uploads/products/a3e39b9a-7e0f-4583-b8aa-65a3c1e68d7c-1789726764075.webp",
-          "thumbnailUrl": "/uploads/products/a3e39b9a-7e0f-4583-b8aa-65a3c1e68d7c-1789726764075-thumb.webp"
+          "imageUrl": "uploads/products/a3e39b9a-7e0f-4583-b8aa-65a3c1e68d7c-1789726764075.webp",
+          "thumbnailUrl": "uploads/products/a3e39b9a-7e0f-4583-b8aa-65a3c1e68d7c-1789726764075-thumb.webp"
         },
         {
           "id": "08dbd834-e166-4d89-bf79-4c71cd0de621",
@@ -86,8 +86,8 @@
           "description": "Salsa casera de tomates, muzzarella y orégano",
           "priceInCents": 700000,
           "priceFormatted": "$ 7.000,00",
-          "imageUrl": "/uploads/products/08dbd834-e166-4d89-bf79-4c71cd0de621-1789726763908.webp",
-          "thumbnailUrl": "/uploads/products/08dbd834-e166-4d89-bf79-4c71cd0de621-1789726763908-thumb.webp"
+          "imageUrl": "uploads/products/08dbd834-e166-4d89-bf79-4c71cd0de621-1789726763908.webp",
+          "thumbnailUrl": "uploads/products/08dbd834-e166-4d89-bf79-4c71cd0de621-1789726763908-thumb.webp"
         },
         {
           "id": "a8d1bc48-2ca3-423e-9bb3-81fa0009aa10",
@@ -95,8 +95,8 @@
           "description": "Muzzarella, rodajas de tomate, ajo y albahaca fresca",
           "priceInCents": 820000,
           "priceFormatted": "$ 8.200,00",
-          "imageUrl": "/uploads/products/a8d1bc48-2ca3-423e-9bb3-81fa0009aa10-1789726763989.webp",
-          "thumbnailUrl": "/uploads/products/a8d1bc48-2ca3-423e-9bb3-81fa0009aa10-1789726763989-thumb.webp"
+          "imageUrl": "uploads/products/a8d1bc48-2ca3-423e-9bb3-81fa0009aa10-1789726763989.webp",
+          "thumbnailUrl": "uploads/products/a8d1bc48-2ca3-423e-9bb3-81fa0009aa10-1789726763989-thumb.webp"
         }
       ]
     },
@@ -111,8 +111,8 @@
           "description": "Papas fritas bañadas en salsa cheddar y panceta crocante",
           "priceInCents": 480000,
           "priceFormatted": "$ 4.800,00",
-          "imageUrl": "/uploads/products/2a618120-f9a2-4edd-a5ae-990f2163612e-1789726764255.webp",
-          "thumbnailUrl": "/uploads/products/2a618120-f9a2-4edd-a5ae-990f2163612e-1789726764255-thumb.webp"
+          "imageUrl": "uploads/products/2a618120-f9a2-4edd-a5ae-990f2163612e-1789726764255.webp",
+          "thumbnailUrl": "uploads/products/2a618120-f9a2-4edd-a5ae-990f2163612e-1789726764255-thumb.webp"
         },
         {
           "id": "21299479-1e05-404a-a4ad-c0c9e6e2e5b2",
@@ -120,8 +120,8 @@
           "description": "Porción grande de papas bastón crocantes",
           "priceInCents": 350000,
           "priceFormatted": "$ 3.500,00",
-          "imageUrl": "/uploads/products/21299479-1e05-404a-a4ad-c0c9e6e2e5b2-1789726764173.webp",
-          "thumbnailUrl": "/uploads/products/21299479-1e05-404a-a4ad-c0c9e6e2e5b2-1789726764173-thumb.webp"
+          "imageUrl": "uploads/products/21299479-1e05-404a-a4ad-c0c9e6e2e5b2-1789726764173.webp",
+          "thumbnailUrl": "uploads/products/21299479-1e05-404a-a4ad-c0c9e6e2e5b2-1789726764173-thumb.webp"
         }
       ]
     },
@@ -136,8 +136,8 @@
           "description": "Con o sin gas",
           "priceInCents": 120000,
           "priceFormatted": "$ 1.200,00",
-          "imageUrl": "/uploads/products/0dca92c6-acd2-4879-8c61-e0f58bdf3963-1789726764412.webp",
-          "thumbnailUrl": "/uploads/products/0dca92c6-acd2-4879-8c61-e0f58bdf3963-1789726764412-thumb.webp"
+          "imageUrl": "uploads/products/0dca92c6-acd2-4879-8c61-e0f58bdf3963-1789726764412.webp",
+          "thumbnailUrl": "uploads/products/0dca92c6-acd2-4879-8c61-e0f58bdf3963-1789726764412-thumb.webp"
         },
         {
           "id": "b5982a0a-8615-46be-804d-a048f5809409",
@@ -145,8 +145,8 @@
           "description": "Botella de litro retornable",
           "priceInCents": 380000,
           "priceFormatted": "$ 3.800,00",
-          "imageUrl": "/uploads/products/b5982a0a-8615-46be-804d-a048f5809409-1789726764498.webp",
-          "thumbnailUrl": "/uploads/products/b5982a0a-8615-46be-804d-a048f5809409-1789726764498-thumb.webp"
+          "imageUrl": "uploads/products/b5982a0a-8615-46be-804d-a048f5809409-1789726764498.webp",
+          "thumbnailUrl": "uploads/products/b5982a0a-8615-46be-804d-a048f5809409-1789726764498-thumb.webp"
         },
         {
           "id": "a8f73619-bcb1-4a51-94ae-4950deb1ce74",
@@ -154,8 +154,8 @@
           "description": "Línea Coca-Cola regular o sin azúcar",
           "priceInCents": 150000,
           "priceFormatted": "$ 1.500,00",
-          "imageUrl": "/uploads/products/a8f73619-bcb1-4a51-94ae-4950deb1ce74-1789726764338.webp",
-          "thumbnailUrl": "/uploads/products/a8f73619-bcb1-4a51-94ae-4950deb1ce74-1789726764338-thumb.webp"
+          "imageUrl": "uploads/products/a8f73619-bcb1-4a51-94ae-4950deb1ce74-1789726764338.webp",
+          "thumbnailUrl": "uploads/products/a8f73619-bcb1-4a51-94ae-4950deb1ce74-1789726764338-thumb.webp"
         },
         {
           "id": "a75f83ca-fcfe-4e5c-83e8-87996035b4e9",
@@ -163,8 +163,8 @@
           "description": "Cerveza tirada 500ml bien fría",
           "priceInCents": 320000,
           "priceFormatted": "$ 3.200,00",
-          "imageUrl": "/uploads/products/a75f83ca-fcfe-4e5c-83e8-87996035b4e9-1789726764596.webp",
-          "thumbnailUrl": "/uploads/products/a75f83ca-fcfe-4e5c-83e8-87996035b4e9-1789726764596-thumb.webp"
+          "imageUrl": "uploads/products/a75f83ca-fcfe-4e5c-83e8-87996035b4e9-1789726764596.webp",
+          "thumbnailUrl": "uploads/products/a75f83ca-fcfe-4e5c-83e8-87996035b4e9-1789726764596-thumb.webp"
         }
       ]
     },
@@ -179,8 +179,8 @@
           "description": "Brownie tibio de chocolate con bocha de crema americana",
           "priceInCents": 350000,
           "priceFormatted": "$ 3.500,00",
-          "imageUrl": "/uploads/products/bc363ff0-5685-4a6a-99a1-d2507108251c-1789726764747.webp",
-          "thumbnailUrl": "/uploads/products/bc363ff0-5685-4a6a-99a1-d2507108251c-1789726764747-thumb.webp"
+          "imageUrl": "uploads/products/bc363ff0-5685-4a6a-99a1-d2507108251c-1789726764747.webp",
+          "thumbnailUrl": "uploads/products/bc363ff0-5685-4a6a-99a1-d2507108251c-1789726764747-thumb.webp"
         },
         {
           "id": "8b345f73-2fd3-4051-837e-94644076d55d",
@@ -188,8 +188,8 @@
           "description": "Acompañado con dulce de leche y crema",
           "priceInCents": 280000,
           "priceFormatted": "$ 2.800,00",
-          "imageUrl": "/uploads/products/8b345f73-2fd3-4051-837e-94644076d55d-1789726764671.webp",
-          "thumbnailUrl": "/uploads/products/8b345f73-2fd3-4051-837e-94644076d55d-1789726764671-thumb.webp"
+          "imageUrl": "uploads/products/8b345f73-2fd3-4051-837e-94644076d55d-1789726764671.webp",
+          "thumbnailUrl": "uploads/products/8b345f73-2fd3-4051-837e-94644076d55d-1789726764671-thumb.webp"
         }
       ]
     }
