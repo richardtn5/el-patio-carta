@@ -1,9 +1,9 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-21T20:26:12.885Z",
+  "lastUpdatedAt": "2026-09-21T20:27:40.295Z",
   "currency": "ARS",
-  "totalProducts": 17,
+  "totalProducts": 19,
   "categories": [
     {
       "id": "be4c470f-8fb5-4966-ab32-c256b6b0cf5c",
@@ -38,6 +38,15 @@
           "thumbnailUrl": null
         },
         {
+          "id": "96935ffc-2bc5-4b26-b1d6-332c3d1e0ffd",
+          "name": "Hamburguesa Completa Test",
+          "description": "Carne, queso, lechuga y tomate",
+          "priceInCents": 1000000,
+          "priceFormatted": "$ 10.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
           "id": "a58d898d-c8d8-4512-a00f-3cbbf1839d25",
           "name": "Milanesa con Fritas Test",
           "description": "Plato clásico para test de imágenes",
@@ -57,6 +66,15 @@
         },
         {
           "id": "7ffac5e1-aa92-40f4-9ed4-a6745557ce66",
+          "name": "Milanesa con Fritas Test",
+          "description": "Plato clásico para test de imágenes",
+          "priceInCents": 1200000,
+          "priceFormatted": "$ 12.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "bcd82c8c-756c-4ed5-a411-10cabb0f8885",
           "name": "Milanesa con Fritas Test",
           "description": "Plato clásico para test de imágenes",
           "priceInCents": 1200000,
