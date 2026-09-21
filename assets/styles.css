@@ -1,11 +1,11 @@
 :root {
-  --bg: #0c0a09;
-  --card-bg: #1c1917;
-  --card-border: #292524;
-  --accent: #f59e0b;
-  --accent-hover: #d97706;
-  --text: #fafaf9;
-  --text-muted: #a8a29e;
+  --bg: #141312;
+  --card-bg: #1c1a18;
+  --card-border: #2e2a26;
+  --accent: #b8753e; /* Marrón dorado / cobre cálido */
+  --accent-hover: #8a5435; /* Terracota cálido */
+  --text: #f7f6f4; /* Blanco cálido */
+  --text-muted: #9c9488;
   --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  background: rgba(12, 10, 9, 0.95);
+  background: rgba(20, 19, 18, 0.95);
   backdrop-filter: blur(8px);
   position: sticky;
   top: 0;
@@ -45,19 +45,28 @@ header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .brand-icon {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: 12px;
-  background: linear-gradient(135deg, #f59e0b, #b45309);
+  background: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
-  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+  overflow: hidden;
+  border: 1px solid #2e2a26;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  flex-shrink: 0;
+}
+
+.brand-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .brand-info h1 {
@@ -72,20 +81,21 @@ header {
 
 .brand-info p {
   font-size: 0.72rem;
-  color: var(--text-muted);
-  font-weight: 500;
+  color: var(--accent);
+  font-weight: 800;
+  letter-spacing: 0.5px;
 }
 
 .badge-mesa {
-  background: #f59e0b;
-  color: #1c1917;
+  background: var(--accent);
+  color: #141312;
   font-size: 0.75rem;
   font-weight: 900;
   padding: 4px 10px;
   border-radius: 999px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  box-shadow: 0 2px 6px rgba(245, 158, 11, 0.4);
+  box-shadow: 0 2px 6px rgba(184, 117, 62, 0.35);
 }
 
 .search-box {

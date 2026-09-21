@@ -105,9 +105,11 @@ function renderProducts() {
         const rawImg = p.thumbnailUrl || p.imageUrl;
         const imgSrc = resolveAssetUrl(rawImg);
 
+        const placeholderHtml = `<div class="card-img-placeholder"><img src="assets/logo.jpeg" alt="El Patio" style="width:44px; height:44px; object-fit:contain; opacity:0.35;"></div>`;
+
         const imgHtml = imgSrc
-          ? `<img class="card-img" src="${imgSrc}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';"><div class="card-img-placeholder" style="display:none;">🍔</div>`
-          : `<div class="card-img-placeholder">🍔</div>`;
+          ? `<img class="card-img" src="${imgSrc}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';">${placeholderHtml.replace('class="card-img-placeholder"', 'class="card-img-placeholder" style="display:none;"')}`
+          : placeholderHtml;
 
         // Serializar de forma segura para atributo onclick
         const escapedProd = JSON.stringify(p).replace(/"/g, '&quot;');
