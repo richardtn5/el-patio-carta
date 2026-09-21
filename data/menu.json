@@ -1,9 +1,9 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-21T20:27:40.295Z",
+  "lastUpdatedAt": "2026-09-21T20:28:40.800Z",
   "currency": "ARS",
-  "totalProducts": 19,
+  "totalProducts": 22,
   "categories": [
     {
       "id": "be4c470f-8fb5-4966-ab32-c256b6b0cf5c",
@@ -79,6 +79,22 @@
           "description": "Plato clásico para test de imágenes",
           "priceInCents": 1200000,
           "priceFormatted": "$ 12.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
+      "id": "f7e73351-7c10-41f5-bc0b-c82b27346a59",
+      "name": "Hamburguesas_1790022467672",
+      "sortOrder": 1,
+      "products": [
+        {
+          "id": "3748310a-4bc2-4cf3-91c5-bf3e17937c04",
+          "name": "Hamburguesa Mega Doble",
+          "description": "",
+          "priceInCents": 1000000,
+          "priceFormatted": "$ 10.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         }
@@ -208,6 +224,38 @@
           "priceFormatted": "$ 2.800,00",
           "imageUrl": "uploads/products/8b345f73-2fd3-4051-837e-94644076d55d-1789726764671.webp",
           "thumbnailUrl": "uploads/products/8b345f73-2fd3-4051-837e-94644076d55d-1789726764671-thumb.webp"
+        }
+      ]
+    },
+    {
+      "id": "de6d8c6f-5c59-41eb-bc01-60f93900ca9c",
+      "name": "Categoría Destino Reasig",
+      "sortOrder": 20,
+      "products": [
+        {
+          "id": "b3a12fdf-9993-49e6-976b-e728cbe0dbb9",
+          "name": "Producto en Categoría Origen",
+          "description": "",
+          "priceInCents": 500000,
+          "priceFormatted": "$ 5.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
+      "id": "799f0e22-a43e-4857-a4e2-05193987188c",
+      "name": "PausarCat_1790022466930",
+      "sortOrder": 50,
+      "products": [
+        {
+          "id": "a1ad10a8-5c72-44b4-9224-339fb775cd2b",
+          "name": "Pizza Muzzarella Especial",
+          "description": "",
+          "priceInCents": 900000,
+          "priceFormatted": "$ 9.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
         }
       ]
     }
