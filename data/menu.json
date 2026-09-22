@@ -1,9 +1,9 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-22T06:00:29.682Z",
+  "lastUpdatedAt": "2026-09-22T06:40:34.126Z",
   "currency": "ARS",
-  "totalProducts": 64,
+  "totalProducts": 66,
   "categories": [
     {
       "id": "4bc30102-8952-45eb-9933-1f8f9c4710b5",
@@ -13,18 +13,9 @@
         {
           "id": "a8d1bc48-2ca3-423e-9bb3-81fa0009aa10",
           "name": "Pizza Comun",
-          "description": "Muzzarella, rodajas de tomate, ajo y albahaca fresca",
+          "description": "Muzzarella, Aceituna, Oregano",
           "priceInCents": 900000,
           "priceFormatted": "$ 9.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
-        },
-        {
-          "id": "9d96cdb3-9695-4e0a-b91b-6ff00d480579",
-          "name": "Hamburguesa Completa Test",
-          "description": "Carne, queso, lechuga y tomate",
-          "priceInCents": 1000000,
-          "priceFormatted": "$ 10.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         },
@@ -38,8 +29,8 @@
           "thumbnailUrl": null
         },
         {
-          "id": "64fe7101-eb8f-4ec2-a990-d5b99fdb5db9",
-          "name": "Fugazza",
+          "id": "0bcb5052-f64a-4051-b9e1-fd45adb79e09",
+          "name": "Pizza Calabresa",
           "description": "",
           "priceInCents": 1100000,
           "priceFormatted": "$ 11.000,00",
@@ -47,8 +38,8 @@
           "thumbnailUrl": null
         },
         {
-          "id": "0bcb5052-f64a-4051-b9e1-fd45adb79e09",
-          "name": "Pizza Calabresa",
+          "id": "64fe7101-eb8f-4ec2-a990-d5b99fdb5db9",
+          "name": "Pizza Fugazza",
           "description": "",
           "priceInCents": 1100000,
           "priceFormatted": "$ 11.000,00",
@@ -61,15 +52,6 @@
           "description": "",
           "priceInCents": 1100000,
           "priceFormatted": "$ 11.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
-        },
-        {
-          "id": "66cc9cbb-2164-4aea-b466-d6ba95005085",
-          "name": "Milanesa con Fritas Test",
-          "description": "Plato clásico para test de imágenes",
-          "priceInCents": 1200000,
-          "priceFormatted": "$ 12.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         },
@@ -130,6 +112,22 @@
       ]
     },
     {
+      "id": "a8da86c2-2b29-43ea-896c-9d719850e460",
+      "name": "Lomito",
+      "sortOrder": 2,
+      "products": [
+        {
+          "id": "59c01c91-7956-4d27-a360-d71eec9405c5",
+          "name": "Lomito",
+          "description": "Pan, carne, lechuga, tomate, huevo, queso, jamon y aderezo",
+          "priceInCents": 1200000,
+          "priceFormatted": "$ 12.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
       "id": "be4c470f-8fb5-4966-ab32-c256b6b0cf5c",
       "name": "Hamburguesas",
       "sortOrder": 3,
@@ -169,11 +167,20 @@
           "thumbnailUrl": null
         },
         {
-          "id": "c4093eab-4438-4f7d-8242-6802eae2aa4a",
-          "name": "Milanesa al plato",
+          "id": "c76de985-2f72-4558-9ae3-ee87f3089575",
+          "name": "Mila al Plato",
           "description": "",
           "priceInCents": 700000,
           "priceFormatted": "$ 7.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "111ce970-040d-4977-acdf-e544d38b67ba",
+          "name": "Mila a Caballo",
+          "description": "",
+          "priceInCents": 800000,
+          "priceFormatted": "$ 8.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         },
@@ -187,11 +194,20 @@
           "thumbnailUrl": null
         },
         {
+          "id": "c4093eab-4438-4f7d-8242-6802eae2aa4a",
+          "name": "Mila al plato (Napolitana)",
+          "description": "",
+          "priceInCents": 900000,
+          "priceFormatted": "$ 9.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
           "id": "a7121597-6039-4f7a-8fb5-325847329d7e",
           "name": "Milanesa XXL (Napolitana, Fugazza, Argentina, Especial)",
           "description": "",
-          "priceInCents": 2500000,
-          "priceFormatted": "$ 25.000,00",
+          "priceInCents": 3000000,
+          "priceFormatted": "$ 30.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         }
@@ -246,15 +262,6 @@
       "sortOrder": 5,
       "products": [
         {
-          "id": "bb9ce54a-ff5b-4ae2-9919-b6d4d95d8e5e",
-          "name": "Papas fritas con cheddar",
-          "description": "",
-          "priceInCents": 100,
-          "priceFormatted": "$ 1,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
-        },
-        {
           "id": "3937cd13-4c48-4c35-a616-f635e8bb963f",
           "name": "Papas fritas (Porcion comun)",
           "description": "",
@@ -262,6 +269,15 @@
           "priceFormatted": "$ 4.000,00",
           "imageUrl": "uploads/products/3937cd13-4c48-4c35-a616-f635e8bb963f-1790048162852.webp",
           "thumbnailUrl": "uploads/products/3937cd13-4c48-4c35-a616-f635e8bb963f-1790048162852-thumb.webp"
+        },
+        {
+          "id": "bb9ce54a-ff5b-4ae2-9919-b6d4d95d8e5e",
+          "name": "Papas fritas con cheddar",
+          "description": "",
+          "priceInCents": 600000,
+          "priceFormatted": "$ 6.000,00",
+          "imageUrl": "uploads/products/bb9ce54a-ff5b-4ae2-9919-b6d4d95d8e5e-1790059073393.webp",
+          "thumbnailUrl": "uploads/products/bb9ce54a-ff5b-4ae2-9919-b6d4d95d8e5e-1790059073393-thumb.webp"
         }
       ]
     },
@@ -400,8 +416,8 @@
           "description": "",
           "priceInCents": 350000,
           "priceFormatted": "$ 3.500,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/037209a1-ee5f-4632-a005-c095f711b40e-1790058587100.webp",
+          "thumbnailUrl": "uploads/products/037209a1-ee5f-4632-a005-c095f711b40e-1790058587100-thumb.webp"
         },
         {
           "id": "38c8cebd-8023-4570-a625-6cf46c172e00",
@@ -409,8 +425,8 @@
           "description": "",
           "priceInCents": 400000,
           "priceFormatted": "$ 4.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/38c8cebd-8023-4570-a625-6cf46c172e00-1790058873792.webp",
+          "thumbnailUrl": "uploads/products/38c8cebd-8023-4570-a625-6cf46c172e00-1790058873792-thumb.webp"
         },
         {
           "id": "852e5083-4bd9-4a0a-9ec6-764face473fc",
@@ -443,8 +459,8 @@
           "description": "En agua o leche",
           "priceInCents": 400000,
           "priceFormatted": "$ 4.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/ab2d0d68-8092-4f38-8af7-456645357bc2-1790058795689.webp",
+          "thumbnailUrl": "uploads/products/ab2d0d68-8092-4f38-8af7-456645357bc2-1790058795689-thumb.webp"
         },
         {
           "id": "aa2f18fd-a2ba-43db-8a11-ac092c117585",
@@ -452,8 +468,8 @@
           "description": "En agua o leche",
           "priceInCents": 400000,
           "priceFormatted": "$ 4.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/aa2f18fd-a2ba-43db-8a11-ac092c117585-1790058799559.webp",
+          "thumbnailUrl": "uploads/products/aa2f18fd-a2ba-43db-8a11-ac092c117585-1790058799559-thumb.webp"
         },
         {
           "id": "9107d1f2-8599-4421-8af6-84bd47f43aee",
@@ -461,8 +477,8 @@
           "description": "En agua o leche",
           "priceInCents": 400000,
           "priceFormatted": "$ 4.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/9107d1f2-8599-4421-8af6-84bd47f43aee-1790058804167.webp",
+          "thumbnailUrl": "uploads/products/9107d1f2-8599-4421-8af6-84bd47f43aee-1790058804167-thumb.webp"
         }
       ]
     },
@@ -511,8 +527,8 @@
           "description": "Pan de campo + Queso crema + Jamon + Queso + Huevo",
           "priceInCents": 350000,
           "priceFormatted": "$ 3.500,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/60e8bf39-7792-41eb-a28b-f290681e55dc-1790057242925.webp",
+          "thumbnailUrl": "uploads/products/60e8bf39-7792-41eb-a28b-f290681e55dc-1790057242925-thumb.webp"
         },
         {
           "id": "1a754d1c-6026-4fe5-8c91-9ad13acaf684",
@@ -527,6 +543,22 @@
           "id": "54faffd6-994c-4484-8244-65562e25c7ef",
           "name": "Toston de Rucula",
           "description": "Pan de campo + Queso crema + Rúcula + Jamon crudo",
+          "priceInCents": 400000,
+          "priceFormatted": "$ 4.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
+      "id": "cc6c59ee-6579-4876-9ba4-09526ece8af9",
+      "name": "Sandwich",
+      "sortOrder": 14,
+      "products": [
+        {
+          "id": "d847be71-3154-4da2-b442-97d493551ca8",
+          "name": "Tostado de Jamon & Queso",
+          "description": "",
           "priceInCents": 400000,
           "priceFormatted": "$ 4.000,00",
           "imageUrl": null,
@@ -554,8 +586,8 @@
           "description": "",
           "priceInCents": 200000,
           "priceFormatted": "$ 2.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/292c4be6-240e-4d16-89c6-bf149592572a-1790057562535.webp",
+          "thumbnailUrl": "uploads/products/292c4be6-240e-4d16-89c6-bf149592572a-1790057562535-thumb.webp"
         },
         {
           "id": "27776480-264e-49ba-b171-85cb3a89bbb2",
@@ -572,8 +604,8 @@
           "description": "",
           "priceInCents": 250000,
           "priceFormatted": "$ 2.500,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/ea2d2f0b-cc09-4358-b901-afcfaa165846-1790057592221.webp",
+          "thumbnailUrl": "uploads/products/ea2d2f0b-cc09-4358-b901-afcfaa165846-1790057592221-thumb.webp"
         },
         {
           "id": "0a6489a1-61b5-46c1-b89c-a957b7b84cb4",
@@ -599,8 +631,8 @@
           "description": "",
           "priceInCents": 350000,
           "priceFormatted": "$ 3.500,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/702c2a02-623d-4279-bc3b-d93a7e734c89-1790057908140.webp",
+          "thumbnailUrl": "uploads/products/702c2a02-623d-4279-bc3b-d93a7e734c89-1790057908140-thumb.webp"
         },
         {
           "id": "7f454493-f996-4e2d-b50c-d333b6db7fbd",
@@ -608,8 +640,8 @@
           "description": "",
           "priceInCents": 450000,
           "priceFormatted": "$ 4.500,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/7f454493-f996-4e2d-b50c-d333b6db7fbd-1790057935307.webp",
+          "thumbnailUrl": "uploads/products/7f454493-f996-4e2d-b50c-d333b6db7fbd-1790057935307-thumb.webp"
         }
       ]
     },
@@ -624,17 +656,17 @@
           "description": "",
           "priceInCents": 100,
           "priceFormatted": "$ 1,00",
-          "imageUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790048764727.webp",
-          "thumbnailUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790048764727-thumb.webp"
+          "imageUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790059044045.webp",
+          "thumbnailUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790059044045-thumb.webp"
         },
         {
           "id": "fb80f8ea-f8dc-42cc-a132-b845f251df5f",
-          "name": "Vino",
+          "name": "Vino con frutas",
           "description": "",
           "priceInCents": 100,
           "priceFormatted": "$ 1,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/fb80f8ea-f8dc-42cc-a132-b845f251df5f-1790059064396.webp",
+          "thumbnailUrl": "uploads/products/fb80f8ea-f8dc-42cc-a132-b845f251df5f-1790059064396-thumb.webp"
         },
         {
           "id": "c0b17887-4071-4262-9cc5-161c9a90f766",
