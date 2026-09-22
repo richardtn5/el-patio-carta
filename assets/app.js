@@ -97,11 +97,21 @@ function renderProducts() {
     });
 
     if (filteredProds.length > 0) {
-      totalVisible += filteredProds.length;
+      // Ordenar productos exclusivamente dentro de cada categoría: MENOR A MAYOR PRECIO, con orden secundario por nombre
+      const sortedProds = [...filteredProds].sort((a, b) => {
+        const priceA = Number(a.priceInCents ?? 0);
+        const priceB = Number(b.priceInCents ?? 0);
+        if (priceA !== priceB) {
+          return priceA - priceB;
+        }
+        return (a.name || '').localeCompare(b.name || '');
+      });
+
+      totalVisible += sortedProds.length;
       html += `<div class="section-title">${cat.name}</div>`;
       html += `<div class="products-grid">`;
 
-      filteredProds.forEach(p => {
+      sortedProds.forEach(p => {
         const rawImg = p.thumbnailUrl || p.imageUrl;
         const imgSrc = resolveAssetUrl(rawImg);
 
