@@ -1,9 +1,9 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-22T04:50:31.098Z",
+  "lastUpdatedAt": "2026-09-22T04:51:28.155Z",
   "currency": "ARS",
-  "totalProducts": 43,
+  "totalProducts": 47,
   "categories": [
     {
       "id": "4bc30102-8952-45eb-9933-1f8f9c4710b5",
@@ -38,6 +38,15 @@
           "thumbnailUrl": null
         },
         {
+          "id": "9eec8bb8-4967-4e99-8dfd-f2706bc08be7",
+          "name": "Hamburguesa Completa Test",
+          "description": "Carne, queso, lechuga y tomate",
+          "priceInCents": 1000000,
+          "priceFormatted": "$ 10.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
           "id": "fcff1bab-ac7a-4b2f-998a-0edcc32f6bef",
           "name": "Milanesa con Fritas Test",
           "description": "Plato clásico para test de imágenes",
@@ -48,6 +57,15 @@
         },
         {
           "id": "74ae0712-0998-4137-8ded-7bd3133dd2e0",
+          "name": "Milanesa con Fritas Test",
+          "description": "Plato clásico para test de imágenes",
+          "priceInCents": 1200000,
+          "priceFormatted": "$ 12.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "0e6ab889-b4dc-4059-84a1-1704689b42e2",
           "name": "Milanesa con Fritas Test",
           "description": "Plato clásico para test de imágenes",
           "priceInCents": 1200000,
@@ -154,6 +172,22 @@
       "products": [
         {
           "id": "d3801633-fe64-4e28-b463-161d699ddb94",
+          "name": "Hamburguesa Mega Doble",
+          "description": "",
+          "priceInCents": 1000000,
+          "priceFormatted": "$ 10.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
+      "id": "ba26acbf-9ef3-4a57-b579-6687b675522a",
+      "name": "Hamburguesas_1790052636919",
+      "sortOrder": 1,
+      "products": [
+        {
+          "id": "56f998be-235d-41e4-8a48-26094cfa4093",
           "name": "Hamburguesa Mega Doble",
           "description": "",
           "priceInCents": 1000000,
@@ -401,6 +435,22 @@
       "products": [
         {
           "id": "598be2be-2524-4d8a-b6ec-3684fffb3cc7",
+          "name": "Pizza Muzzarella Especial",
+          "description": "",
+          "priceInCents": 900000,
+          "priceFormatted": "$ 9.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
+      "id": "857ba68a-6f27-4322-b8af-346448a66d62",
+      "name": "PausarCat_1790052636125",
+      "sortOrder": 50,
+      "products": [
+        {
+          "id": "f0283a79-57fe-4583-883b-cfa0879d8d9d",
           "name": "Pizza Muzzarella Especial",
           "description": "",
           "priceInCents": 900000,
