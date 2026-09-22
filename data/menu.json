@@ -1,9 +1,9 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-22T03:33:04.849Z",
+  "lastUpdatedAt": "2026-09-22T04:49:36.097Z",
   "currency": "ARS",
-  "totalProducts": 34,
+  "totalProducts": 38,
   "categories": [
     {
       "id": "4bc30102-8952-45eb-9933-1f8f9c4710b5",
@@ -16,6 +16,24 @@
           "description": "",
           "priceInCents": 1100000,
           "priceFormatted": "$ 11.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "1aa463e3-5682-4d9d-8525-1690f80e6238",
+          "name": "Hamburguesa Completa Test",
+          "description": "Carne, queso, lechuga y tomate",
+          "priceInCents": 1000000,
+          "priceFormatted": "$ 10.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "fcff1bab-ac7a-4b2f-998a-0edcc32f6bef",
+          "name": "Milanesa con Fritas Test",
+          "description": "Plato clásico para test de imágenes",
+          "priceInCents": 1200000,
+          "priceFormatted": "$ 12.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         },
@@ -223,6 +241,31 @@
       ]
     },
     {
+      "id": "a53e0a22-e418-40c4-a08a-2905582b4866",
+      "name": "Papas fritas",
+      "sortOrder": 5,
+      "products": [
+        {
+          "id": "3937cd13-4c48-4c35-a616-f635e8bb963f",
+          "name": "Papas fritas (Porcion comun)",
+          "description": "",
+          "priceInCents": 400000,
+          "priceFormatted": "$ 4.000,00",
+          "imageUrl": "uploads/products/3937cd13-4c48-4c35-a616-f635e8bb963f-1790048162852.webp",
+          "thumbnailUrl": "uploads/products/3937cd13-4c48-4c35-a616-f635e8bb963f-1790048162852-thumb.webp"
+        },
+        {
+          "id": "bb9ce54a-ff5b-4ae2-9919-b6d4d95d8e5e",
+          "name": "Papas fritas con cheddar",
+          "description": "",
+          "priceInCents": 100,
+          "priceFormatted": "$ 1,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
       "id": "799f0e22-a43e-4857-a4e2-05193987188c",
       "name": "Bebidas",
       "sortOrder": 50,
@@ -321,8 +364,8 @@
           "description": "",
           "priceInCents": 100,
           "priceFormatted": "$ 1,00",
-          "imageUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790047805821.webp",
-          "thumbnailUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790047805821-thumb.webp"
+          "imageUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790048764727.webp",
+          "thumbnailUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790048764727-thumb.webp"
         },
         {
           "id": "20b1ef52-1d22-45b1-a452-28d970c56942",
