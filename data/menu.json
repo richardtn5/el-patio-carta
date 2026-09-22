@@ -1,9 +1,9 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-22T04:51:28.155Z",
+  "lastUpdatedAt": "2026-09-22T05:23:21.729Z",
   "currency": "ARS",
-  "totalProducts": 47,
+  "totalProducts": 44,
   "categories": [
     {
       "id": "4bc30102-8952-45eb-9933-1f8f9c4710b5",
@@ -162,36 +162,22 @@
           "priceFormatted": "$ 15.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
-        }
-      ]
-    },
-    {
-      "id": "8da51638-5192-444a-a812-ca236e5d1608",
-      "name": "Hamburguesas_1790052581685",
-      "sortOrder": 1,
-      "products": [
+        },
         {
-          "id": "d3801633-fe64-4e28-b463-161d699ddb94",
-          "name": "Hamburguesa Mega Doble",
+          "id": "81c773a4-6908-43c5-9ceb-083eea7363cc",
+          "name": "Producto en Categoría Origen",
           "description": "",
-          "priceInCents": 1000000,
-          "priceFormatted": "$ 10.000,00",
+          "priceInCents": 500000,
+          "priceFormatted": "$ 5.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
-        }
-      ]
-    },
-    {
-      "id": "ba26acbf-9ef3-4a57-b579-6687b675522a",
-      "name": "Hamburguesas_1790052636919",
-      "sortOrder": 1,
-      "products": [
+        },
         {
-          "id": "56f998be-235d-41e4-8a48-26094cfa4093",
-          "name": "Hamburguesa Mega Doble",
+          "id": "2e504b31-9042-4651-9ea5-e1c242f57c1b",
+          "name": "Producto en Categoría Origen",
           "description": "",
-          "priceInCents": 1000000,
-          "priceFormatted": "$ 10.000,00",
+          "priceInCents": 500000,
+          "priceFormatted": "$ 5.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         }
@@ -334,22 +320,6 @@
       ]
     },
     {
-      "id": "d999aaf1-5524-452d-85d1-6e7ea2087134",
-      "name": "Categoría Destino Reasig",
-      "sortOrder": 20,
-      "products": [
-        {
-          "id": "81c773a4-6908-43c5-9ceb-083eea7363cc",
-          "name": "Producto en Categoría Origen",
-          "description": "",
-          "priceInCents": 500000,
-          "priceFormatted": "$ 5.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
-        }
-      ]
-    },
-    {
       "id": "799f0e22-a43e-4857-a4e2-05193987188c",
       "name": "Bebidas",
       "sortOrder": 50,
@@ -423,38 +393,6 @@
           "description": "",
           "priceInCents": 200000,
           "priceFormatted": "$ 2.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
-        }
-      ]
-    },
-    {
-      "id": "2bf149b0-fbc9-48c4-9353-bfe131028b74",
-      "name": "PausarCat_1790052581000",
-      "sortOrder": 50,
-      "products": [
-        {
-          "id": "598be2be-2524-4d8a-b6ec-3684fffb3cc7",
-          "name": "Pizza Muzzarella Especial",
-          "description": "",
-          "priceInCents": 900000,
-          "priceFormatted": "$ 9.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
-        }
-      ]
-    },
-    {
-      "id": "857ba68a-6f27-4322-b8af-346448a66d62",
-      "name": "PausarCat_1790052636125",
-      "sortOrder": 50,
-      "products": [
-        {
-          "id": "f0283a79-57fe-4583-883b-cfa0879d8d9d",
-          "name": "Pizza Muzzarella Especial",
-          "description": "",
-          "priceInCents": 900000,
-          "priceFormatted": "$ 9.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         }
