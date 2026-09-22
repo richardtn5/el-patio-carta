@@ -1,9 +1,9 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-22T04:49:36.097Z",
+  "lastUpdatedAt": "2026-09-22T04:50:31.098Z",
   "currency": "ARS",
-  "totalProducts": 38,
+  "totalProducts": 43,
   "categories": [
     {
       "id": "4bc30102-8952-45eb-9933-1f8f9c4710b5",
@@ -29,7 +29,25 @@
           "thumbnailUrl": null
         },
         {
+          "id": "e438708c-3b1f-4cc2-a051-2f28f1535e1a",
+          "name": "Hamburguesa Completa Test",
+          "description": "Carne, queso, lechuga y tomate",
+          "priceInCents": 1000000,
+          "priceFormatted": "$ 10.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
           "id": "fcff1bab-ac7a-4b2f-998a-0edcc32f6bef",
+          "name": "Milanesa con Fritas Test",
+          "description": "Plato clásico para test de imágenes",
+          "priceInCents": 1200000,
+          "priceFormatted": "$ 12.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "74ae0712-0998-4137-8ded-7bd3133dd2e0",
           "name": "Milanesa con Fritas Test",
           "description": "Plato clásico para test de imágenes",
           "priceInCents": 1200000,
@@ -124,6 +142,22 @@
           "description": "",
           "priceInCents": 1500000,
           "priceFormatted": "$ 15.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
+      "id": "8da51638-5192-444a-a812-ca236e5d1608",
+      "name": "Hamburguesas_1790052581685",
+      "sortOrder": 1,
+      "products": [
+        {
+          "id": "d3801633-fe64-4e28-b463-161d699ddb94",
+          "name": "Hamburguesa Mega Doble",
+          "description": "",
+          "priceInCents": 1000000,
+          "priceFormatted": "$ 10.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         }
@@ -266,6 +300,22 @@
       ]
     },
     {
+      "id": "d999aaf1-5524-452d-85d1-6e7ea2087134",
+      "name": "Categoría Destino Reasig",
+      "sortOrder": 20,
+      "products": [
+        {
+          "id": "81c773a4-6908-43c5-9ceb-083eea7363cc",
+          "name": "Producto en Categoría Origen",
+          "description": "",
+          "priceInCents": 500000,
+          "priceFormatted": "$ 5.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
       "id": "799f0e22-a43e-4857-a4e2-05193987188c",
       "name": "Bebidas",
       "sortOrder": 50,
@@ -339,6 +389,22 @@
           "description": "",
           "priceInCents": 200000,
           "priceFormatted": "$ 2.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
+      "id": "2bf149b0-fbc9-48c4-9353-bfe131028b74",
+      "name": "PausarCat_1790052581000",
+      "sortOrder": 50,
+      "products": [
+        {
+          "id": "598be2be-2524-4d8a-b6ec-3684fffb3cc7",
+          "name": "Pizza Muzzarella Especial",
+          "description": "",
+          "priceInCents": 900000,
+          "priceFormatted": "$ 9.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         }
