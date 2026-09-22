@@ -1,39 +1,136 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-21T21:26:00.254Z",
+  "lastUpdatedAt": "2026-09-22T03:33:04.849Z",
   "currency": "ARS",
-  "totalProducts": 6,
+  "totalProducts": 34,
   "categories": [
     {
-      "id": "be4c470f-8fb5-4966-ab32-c256b6b0cf5c",
-      "name": "Hamburguesas",
+      "id": "4bc30102-8952-45eb-9933-1f8f9c4710b5",
+      "name": "Pizzas",
       "sortOrder": 1,
       "products": [
         {
-          "id": "b9ad0b6a-9cd2-4278-84a4-1db9a7c1d680",
-          "name": "Hamburguesa Completa Test",
-          "description": "Carne, queso, lechuga y tomate",
+          "id": "64fe7101-eb8f-4ec2-a990-d5b99fdb5db9",
+          "name": "Fugazza",
+          "description": "",
+          "priceInCents": 1100000,
+          "priceFormatted": "$ 11.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "4bc7e523-5cf0-4891-90bf-d11f2c22bd75",
+          "name": "Pizza Anchoa",
+          "description": "",
+          "priceInCents": 1400000,
+          "priceFormatted": "$ 14.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "cb2f50af-cc2b-40be-ba23-d4232fd2cc71",
+          "name": "Pizza Argentina",
+          "description": "",
+          "priceInCents": 1300000,
+          "priceFormatted": "$ 13.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "0bcb5052-f64a-4051-b9e1-fd45adb79e09",
+          "name": "Pizza Calabresa",
+          "description": "",
+          "priceInCents": 1100000,
+          "priceFormatted": "$ 11.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "ec549afb-9112-4208-85a5-673589813591",
+          "name": "Pizza Choclo",
+          "description": "",
+          "priceInCents": 1300000,
+          "priceFormatted": "$ 13.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "a8d1bc48-2ca3-423e-9bb3-81fa0009aa10",
+          "name": "Pizza Comun",
+          "description": "Muzzarella, rodajas de tomate, ajo y albahaca fresca",
+          "priceInCents": 900000,
+          "priceFormatted": "$ 9.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "c6635990-0081-44d4-a705-89be64bef316",
+          "name": "Pizza Especial",
+          "description": "",
           "priceInCents": 1000000,
           "priceFormatted": "$ 10.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         },
         {
-          "id": "bcd82c8c-756c-4ed5-a411-10cabb0f8885",
-          "name": "Hamburguesa Especial",
-          "description": "Plato clásico para test de imágenes",
+          "id": "6be8d198-a16e-49a9-86c5-a8095e89320a",
+          "name": "Pizza Napolitana",
+          "description": "",
+          "priceInCents": 1100000,
+          "priceFormatted": "$ 11.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "bec55df7-e1e4-4a9c-9173-3f857dde1d5f",
+          "name": "Pizza Palmito",
+          "description": "",
+          "priceInCents": 1300000,
+          "priceFormatted": "$ 13.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "76be8ac7-58b8-4ae7-bb9f-b4bf3a3c1db4",
+          "name": "Pizza Primavera",
+          "description": "",
           "priceInCents": 1200000,
           "priceFormatted": "$ 12.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         },
         {
-          "id": "6a7f8780-26a2-4fa1-8eef-489282eb497a",
-          "name": "Milanesa con Fritas Test",
-          "description": "Plato clásico para test de imágenes",
-          "priceInCents": 1200000,
-          "priceFormatted": "$ 12.000,00",
+          "id": "8cb6ec61-168f-4c27-8c07-ac07edec0a99",
+          "name": "Pizza Rucula",
+          "description": "",
+          "priceInCents": 1500000,
+          "priceFormatted": "$ 15.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
+      "id": "be4c470f-8fb5-4966-ab32-c256b6b0cf5c",
+      "name": "Hamburguesas",
+      "sortOrder": 3,
+      "products": [
+        {
+          "id": "795fde75-2a09-4aab-9242-0480a8397d1f",
+          "name": "Cheese simple ",
+          "description": "Pan de papa, carne, cheddar, cebolla caramelizada, panceta, salsas.",
+          "priceInCents": 800000,
+          "priceFormatted": "$ 8.000,00",
+          "imageUrl": "uploads/products/795fde75-2a09-4aab-9242-0480a8397d1f-1790047979236.webp",
+          "thumbnailUrl": "uploads/products/795fde75-2a09-4aab-9242-0480a8397d1f-1790047979236-thumb.webp"
+        },
+        {
+          "id": "ac04f5d3-6f26-4606-895f-24fd94bd46f7",
+          "name": "Hamburguesa Especial",
+          "description": "Pan, carne, jamón, queso, lechuga, tomate, huevo y aderezos.",
+          "priceInCents": 600000,
+          "priceFormatted": "$ 6.000,00",
           "imageUrl": null,
           "thumbnailUrl": null
         }
@@ -42,32 +139,86 @@
     {
       "id": "f7e73351-7c10-41f5-bc0b-c82b27346a59",
       "name": "Milanesas",
-      "sortOrder": 2,
+      "sortOrder": 4,
       "products": [
         {
+          "id": "a7121597-6039-4f7a-8fb5-325847329d7e",
+          "name": "Milanesa XXL (Napolitana, Fugazza, Argentina, Especial)",
+          "description": "",
+          "priceInCents": 2500000,
+          "priceFormatted": "$ 25.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "c4093eab-4438-4f7d-8242-6802eae2aa4a",
+          "name": "Milanesa al plato",
+          "description": "",
+          "priceInCents": 700000,
+          "priceFormatted": "$ 7.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
           "id": "21299479-1e05-404a-a4ad-c0c9e6e2e5b2",
-          "name": "Papas Fritas Clásicas",
-          "description": "Porción grande de papas bastón crocantes",
-          "priceInCents": 350000,
-          "priceFormatted": "$ 3.500,00",
-          "imageUrl": "uploads/products/21299479-1e05-404a-a4ad-c0c9e6e2e5b2-1789726764173.webp",
-          "thumbnailUrl": "uploads/products/21299479-1e05-404a-a4ad-c0c9e6e2e5b2-1789726764173-thumb.webp"
+          "name": "Sandwich de Mila",
+          "description": "Pan, milanesa, lechuga, tomate, queso, jamón, huevo, aderezo",
+          "priceInCents": 800000,
+          "priceFormatted": "$ 8.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "566284db-9d3f-4c43-b160-81d0e6d99316",
+          "name": "Super Sandwich de Mila (Varilla completa)",
+          "description": "",
+          "priceInCents": 100,
+          "priceFormatted": "$ 1,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
         }
       ]
     },
     {
-      "id": "4bc30102-8952-45eb-9933-1f8f9c4710b5",
-      "name": "Pizzas",
-      "sortOrder": 3,
+      "id": "bf9315c6-e2a2-4e50-a99b-f1dcec89a614",
+      "name": "Empanadas",
+      "sortOrder": 4,
       "products": [
         {
-          "id": "a8d1bc48-2ca3-423e-9bb3-81fa0009aa10",
-          "name": "Pizza Napolitana",
-          "description": "Muzzarella, rodajas de tomate, ajo y albahaca fresca",
-          "priceInCents": 820000,
-          "priceFormatted": "$ 8.200,00",
-          "imageUrl": "uploads/products/a8d1bc48-2ca3-423e-9bb3-81fa0009aa10-1789726763989.webp",
-          "thumbnailUrl": "uploads/products/a8d1bc48-2ca3-423e-9bb3-81fa0009aa10-1789726763989-thumb.webp"
+          "id": "e6e1fda3-27b7-4afa-8546-d62185fcd430",
+          "name": "Arabes",
+          "description": "",
+          "priceInCents": 800000,
+          "priceFormatted": "$ 8.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "76b6faa9-73f7-4abe-a06b-d4deb64aee95",
+          "name": "Atun",
+          "description": "",
+          "priceInCents": 900000,
+          "priceFormatted": "$ 9.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "fe6bcb9d-d754-4b6a-8bef-096619a5b8f7",
+          "name": "Criollas",
+          "description": "",
+          "priceInCents": 700000,
+          "priceFormatted": "$ 7.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "971c13e3-3ae2-4bd7-b8d9-5698a44cb296",
+          "name": "Jamon y Queso",
+          "description": "",
+          "priceInCents": 800000,
+          "priceFormatted": "$ 8.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
         }
       ]
     },
@@ -77,13 +228,128 @@
       "sortOrder": 50,
       "products": [
         {
-          "id": "a75f83ca-fcfe-4e5c-83e8-87996035b4e9",
-          "name": "Pinta Cerveza Artesanal IPA",
-          "description": "Cerveza tirada 500ml bien fría",
-          "priceInCents": 320000,
-          "priceFormatted": "$ 3.200,00",
-          "imageUrl": "uploads/products/a75f83ca-fcfe-4e5c-83e8-87996035b4e9-1789726764596.webp",
-          "thumbnailUrl": "uploads/products/a75f83ca-fcfe-4e5c-83e8-87996035b4e9-1789726764596-thumb.webp"
+          "id": "0a6489a1-61b5-46c1-b89c-a957b7b84cb4",
+          "name": "Agua común",
+          "description": "",
+          "priceInCents": 300000,
+          "priceFormatted": "$ 3.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "616916b2-34d0-4dde-a434-0996e94ad619",
+          "name": "Agua saborizada (chica)",
+          "description": "",
+          "priceInCents": 200000,
+          "priceFormatted": "$ 2.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "2b8f47cc-5924-4400-816d-64000f65ce66",
+          "name": "Agua saborizada (grande)",
+          "description": "",
+          "priceInCents": 350000,
+          "priceFormatted": "$ 3.500,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "7f454493-f996-4e2d-b50c-d333b6db7fbd",
+          "name": "Coca (1,5 L)",
+          "description": "",
+          "priceInCents": 450000,
+          "priceFormatted": "$ 4.500,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "292c4be6-240e-4d16-89c6-bf149592572a",
+          "name": "Coca (350 ml)",
+          "description": "",
+          "priceInCents": 200000,
+          "priceFormatted": "$ 2.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "ea2d2f0b-cc09-4358-b901-afcfaa165846",
+          "name": "Coca (600 ml)",
+          "description": "",
+          "priceInCents": 250000,
+          "priceFormatted": "$ 2.500,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "702c2a02-623d-4279-bc3b-d93a7e734c89",
+          "name": "Coca/Coca Zero (1 1/4 L)",
+          "description": "",
+          "priceInCents": 350000,
+          "priceFormatted": "$ 3.500,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "27776480-264e-49ba-b171-85cb3a89bbb2",
+          "name": "Soda (chica)",
+          "description": "",
+          "priceInCents": 200000,
+          "priceFormatted": "$ 2.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        }
+      ]
+    },
+    {
+      "id": "7eb0e71c-fb73-4f16-b84b-de2867de146b",
+      "name": "Bebidas/Tragos",
+      "sortOrder": 51,
+      "products": [
+        {
+          "id": "c0b17887-4071-4262-9cc5-161c9a90f766",
+          "name": "Cerveza",
+          "description": "",
+          "priceInCents": 500000,
+          "priceFormatted": "$ 5.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "e8318155-3bd5-4780-97b2-87cb8957b5cb",
+          "name": "Daiquiri",
+          "description": "",
+          "priceInCents": 100,
+          "priceFormatted": "$ 1,00",
+          "imageUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790047805821.webp",
+          "thumbnailUrl": "uploads/products/e8318155-3bd5-4780-97b2-87cb8957b5cb-1790047805821-thumb.webp"
+        },
+        {
+          "id": "20b1ef52-1d22-45b1-a452-28d970c56942",
+          "name": "Fernet",
+          "description": "",
+          "priceInCents": 800000,
+          "priceFormatted": "$ 8.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "d181f717-66a9-45f4-b657-dbbe8bce846a",
+          "name": "Gancia",
+          "description": "",
+          "priceInCents": 700000,
+          "priceFormatted": "$ 7.000,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
+        },
+        {
+          "id": "fb80f8ea-f8dc-42cc-a132-b845f251df5f",
+          "name": "Vino",
+          "description": "",
+          "priceInCents": 100,
+          "priceFormatted": "$ 1,00",
+          "imageUrl": null,
+          "thumbnailUrl": null
         }
       ]
     }
