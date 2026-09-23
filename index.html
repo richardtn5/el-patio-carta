@@ -64,11 +64,12 @@
   <div class="modal-backdrop" id="productModal" onclick="closeModal()">
     <div class="modal-content" onclick="event.stopPropagation()">
       <div class="modal-img-box">
-        <img id="modalImg" src="" alt="" style="display: none;">
+        <img id="modalImg" src="" alt="" style="display: none;" onclick="openLightboxFromModal()" title="Toca para pantalla completa">
         <div id="modalImgFallback" class="card-img-placeholder">
           <img src="assets/logo.jpeg" alt="El Patio Resto-Bar" style="width:64px; height:64px; object-fit:contain; opacity:0.45;">
         </div>
         <button class="modal-close" onclick="closeModal()" aria-label="Cerrar">✕</button>
+        <button class="modal-zoom-btn" id="modalZoomBtn" onclick="openLightboxFromModal()" title="Ampliar imagen a pantalla completa" aria-label="Ampliar imagen">🔍 Ampliar</button>
       </div>
       <div class="modal-body">
         <h2 class="modal-title" id="modalTitle"></h2>
@@ -78,6 +79,15 @@
           ℹ️ Para ordenar este producto, por favor solicítelo al mozo que atiende su mesa.
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- Lightbox / Visor de Imagen Completa Centrado sobre toda la pantalla -->
+  <div class="lightbox-backdrop" id="imageLightbox" onclick="closeLightbox(event)">
+    <button class="lightbox-close" onclick="closeLightbox(event)" aria-label="Cerrar visor">✕</button>
+    <div class="lightbox-container" onclick="event.stopPropagation()">
+      <img id="lightboxImg" src="" alt="" class="lightbox-img">
+      <div id="lightboxTitle" class="lightbox-title"></div>
     </div>
   </div>
 

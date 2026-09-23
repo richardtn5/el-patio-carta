@@ -112,21 +112,31 @@ function renderProducts() {
       html += `<div class="products-grid">`;
 
       sortedProds.forEach(p => {
-        const rawImg = p.thumbnailUrl || p.imageUrl;
-        const imgSrc = resolveAssetUrl(rawImg);
+        const rawThumb = p.thumbnailUrl || p.imageUrl;
+        const thumbSrc = resolveAssetUrl(rawThumb);
+        const fullImg = resolveAssetUrl(p.imageUrl || p.thumbnailUrl);
 
         const placeholderHtml = `<div class="card-img-placeholder"><img src="assets/logo.jpeg" alt="El Patio" style="width:44px; height:44px; object-fit:contain; opacity:0.35;"></div>`;
 
-        const imgHtml = imgSrc
-          ? `<img class="card-img" src="${imgSrc}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';">${placeholderHtml.replace('class="card-img-placeholder"', 'class="card-img-placeholder" style="display:none;"')}`
+        const imgHtml = thumbSrc
+          ? `<img class="card-img" src="${thumbSrc}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';">${placeholderHtml.replace('class="card-img-placeholder"', 'class="card-img-placeholder" style="display:none;"')}`
           : placeholderHtml;
 
         // Serializar de forma segura para atributo onclick
         const escapedProd = JSON.stringify(p).replace(/"/g, '&quot;');
+        const safeFullImg = fullImg.replace(/'/g, "\\'");
+        const safeName = (p.name || '').replace(/'/g, "\\'");
+
+        const imgBoxOnClick = fullImg
+          ? `onclick="event.stopPropagation(); openLightbox('${safeFullImg}', '${safeName}')" title="Toca para ver la imagen completa"`
+          : '';
 
         html += `
           <div class="card" onclick="openModal(${escapedProd})">
-            <div class="card-img-box">${imgHtml}</div>
+            <div class="card-img-box" ${imgBoxOnClick}>
+              ${imgHtml}
+              ${fullImg ? '<span class="card-zoom-badge" title="Ver foto">🔍</span>' : ''}
+            </div>
             <div class="card-body">
               <div>
                 <h3 class="card-title">${p.name}</h3>
@@ -155,46 +165,99 @@ function renderProducts() {
   container.innerHTML = html;
 }
 
+let currentModalProd = null;
+
 window.openModal = function(prod) {
+  currentModalProd = prod;
   const titleEl = document.getElementById('modalTitle');
   const priceEl = document.getElementById('modalPrice');
   const descEl = document.getElementById('modalDesc');
   const imgEl = document.getElementById('modalImg');
   const fallbackEl = document.getElementById('modalImgFallback');
+  const zoomBtn = document.getElementById('modalZoomBtn');
   const modal = document.getElementById('productModal');
 
   if (titleEl) titleEl.textContent = prod.name;
   if (priceEl) priceEl.textContent = prod.priceFormatted;
   if (descEl) descEl.textContent = prod.description || 'Consulte ingredientes y opciones disponibles con el personal de servicio.';
 
-  const rawImg = prod.imageUrl || prod.thumbnailUrl;
-  const imgSrc = resolveAssetUrl(rawImg);
+  const fullImg = resolveAssetUrl(prod.imageUrl || prod.thumbnailUrl);
 
   if (imgEl && fallbackEl) {
-    if (imgSrc) {
-      imgEl.src = imgSrc;
+    if (fullImg) {
+      imgEl.src = fullImg;
+      imgEl.alt = prod.name;
       imgEl.style.display = 'block';
       fallbackEl.style.display = 'none';
+      if (zoomBtn) zoomBtn.style.display = 'inline-flex';
       imgEl.onerror = () => {
         imgEl.style.display = 'none';
         fallbackEl.style.display = 'flex';
+        if (zoomBtn) zoomBtn.style.display = 'none';
       };
     } else {
       imgEl.style.display = 'none';
       fallbackEl.style.display = 'flex';
+      if (zoomBtn) zoomBtn.style.display = 'none';
     }
   }
 
   if (modal) modal.classList.add('open');
 };
 
+window.openLightbox = function(imgSrc, title) {
+  if (!imgSrc) return;
+  const lightbox = document.getElementById('imageLightbox');
+  const lbImg = document.getElementById('lightboxImg');
+  const lbTitle = document.getElementById('lightboxTitle');
+
+  if (lbImg) {
+    lbImg.src = imgSrc;
+    lbImg.alt = title || 'Fotografía de producto';
+  }
+  if (lbTitle) {
+    lbTitle.textContent = title || '';
+    lbTitle.style.display = title ? 'block' : 'none';
+  }
+  if (lightbox) {
+    lightbox.classList.add('open');
+  }
+};
+
+window.openLightboxFromModal = function() {
+  if (!currentModalProd) return;
+  const fullImg = resolveAssetUrl(currentModalProd.imageUrl || currentModalProd.thumbnailUrl);
+  if (fullImg) {
+    window.openLightbox(fullImg, currentModalProd.name);
+  }
+};
+
+window.closeLightbox = function(event) {
+  if (event) {
+    event.stopPropagation();
+  }
+  const lightbox = document.getElementById('imageLightbox');
+  if (lightbox) {
+    lightbox.classList.remove('open');
+  }
+};
+
 window.closeModal = function() {
   const modal = document.getElementById('productModal');
   if (modal) modal.classList.remove('open');
+  currentModalProd = null;
+  window.closeLightbox();
 };
 
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') window.closeModal();
+  if (e.key === 'Escape') {
+    const lightbox = document.getElementById('imageLightbox');
+    if (lightbox && lightbox.classList.contains('open')) {
+      window.closeLightbox();
+    } else {
+      window.closeModal();
+    }
+  }
 });
 
 // Iniciar carga del menú
