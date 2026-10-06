@@ -1,9 +1,9 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-09-23T05:11:48.332Z",
+  "lastUpdatedAt": "2026-10-06T00:43:24.689Z",
   "currency": "ARS",
-  "totalProducts": 63,
+  "totalProducts": 64,
   "categories": [
     {
       "id": "4bc30102-8952-45eb-9933-1f8f9c4710b5",
@@ -25,8 +25,8 @@
           "description": "",
           "priceInCents": 1000000,
           "priceFormatted": "$ 10.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/c6635990-0081-44d4-a705-89be64bef316-1790387573345.webp",
+          "thumbnailUrl": "uploads/products/c6635990-0081-44d4-a705-89be64bef316-1790387573345-thumb.webp"
         },
         {
           "id": "0bcb5052-f64a-4051-b9e1-fd45adb79e09",
@@ -106,8 +106,8 @@
           "description": "",
           "priceInCents": 1500000,
           "priceFormatted": "$ 15.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/8cb6ec61-168f-4c27-8c07-ac07edec0a99-1790256458975.webp",
+          "thumbnailUrl": "uploads/products/8cb6ec61-168f-4c27-8c07-ac07edec0a99-1790256458975-thumb.webp"
         }
       ]
     },
@@ -181,8 +181,8 @@
           "description": "Pan, milanesa, lechuga, tomate, queso, jamón, huevo, aderezo",
           "priceInCents": 800000,
           "priceFormatted": "$ 8.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/21299479-1e05-404a-a4ad-c0c9e6e2e5b2-1791247223103.webp",
+          "thumbnailUrl": "uploads/products/21299479-1e05-404a-a4ad-c0c9e6e2e5b2-1791247223103-thumb.webp"
         },
         {
           "id": "c4093eab-4438-4f7d-8242-6802eae2aa4a",
@@ -199,8 +199,8 @@
           "description": "",
           "priceInCents": 3000000,
           "priceFormatted": "$ 30.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/a7121597-6039-4f7a-8fb5-325847329d7e-1791246971253.webp",
+          "thumbnailUrl": "uploads/products/a7121597-6039-4f7a-8fb5-325847329d7e-1791246971253-thumb.webp"
         }
       ]
     },
@@ -305,6 +305,15 @@
           "thumbnailUrl": null
         },
         {
+          "id": "b99f7582-6b87-408c-b3cf-a38b89526869",
+          "name": "Flan",
+          "description": "",
+          "priceInCents": 350000,
+          "priceFormatted": "$ 3.500,00",
+          "imageUrl": "uploads/products/b99f7582-6b87-408c-b3cf-a38b89526869-1791247155505.webp",
+          "thumbnailUrl": "uploads/products/b99f7582-6b87-408c-b3cf-a38b89526869-1791247155505-thumb.webp"
+        },
+        {
           "id": "e3607870-b4ae-4807-9236-184e4bac8334",
           "name": "Chajá",
           "description": "",
@@ -319,8 +328,8 @@
           "description": "",
           "priceInCents": 400000,
           "priceFormatted": "$ 4.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/e928b379-6369-4132-9d26-df0b85f8b839-1791247140196.webp",
+          "thumbnailUrl": "uploads/products/e928b379-6369-4132-9d26-df0b85f8b839-1791247140196-thumb.webp"
         },
         {
           "id": "5c8ef560-0a50-4f7a-8cca-16d1e23ab2f0",
