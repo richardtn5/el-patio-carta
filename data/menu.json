@@ -1,7 +1,7 @@
 {
   "restaurantName": "EL PATIO",
   "representative": "Silvana Tores",
-  "lastUpdatedAt": "2026-10-06T00:43:24.689Z",
+  "lastUpdatedAt": "2026-10-06T00:49:40.340Z",
   "currency": "ARS",
   "totalProducts": 64,
   "categories": [
@@ -319,8 +319,8 @@
           "description": "",
           "priceInCents": 400000,
           "priceFormatted": "$ 4.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/e3607870-b4ae-4807-9236-184e4bac8334-1791247736829.webp",
+          "thumbnailUrl": "uploads/products/e3607870-b4ae-4807-9236-184e4bac8334-1791247736829-thumb.webp"
         },
         {
           "id": "e928b379-6369-4132-9d26-df0b85f8b839",
@@ -337,8 +337,8 @@
           "description": "",
           "priceInCents": 500000,
           "priceFormatted": "$ 5.000,00",
-          "imageUrl": null,
-          "thumbnailUrl": null
+          "imageUrl": "uploads/products/5c8ef560-0a50-4f7a-8cca-16d1e23ab2f0-1791247758942.webp",
+          "thumbnailUrl": "uploads/products/5c8ef560-0a50-4f7a-8cca-16d1e23ab2f0-1791247758942-thumb.webp"
         }
       ]
     },
