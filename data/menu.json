@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-10-13T07:12:18.270Z",
+  "generatedAt": "2026-10-13T09:53:40.040Z",
   "business": {
     "name": "El Kaku",
     "menuTitle": "Carta Digital El Kaku",
@@ -12,12 +12,12 @@
     "welcomeText": "Bienvenidos a El Kaku",
     "contactText": "",
     "theme": {
-      "primary": "#f59e0b",
-      "secondary": "#e11d48",
-      "background": "#0f172a",
-      "surface": "#1e293b",
-      "text": "#f8fafc",
-      "accent": "#22c55e"
+      "primary": "#C99A16",
+      "secondary": "#F07819",
+      "background": "#17130D",
+      "surface": "#241D14",
+      "text": "#FFFDF8",
+      "accent": "#D93620"
     }
   },
   "categories": [

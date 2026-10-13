@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background subtle gradient -->
+    <linearGradient id="bgLightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFFDF8" />
+    </linearGradient>
+
+    <!-- Gold Gradients -->
+    <linearGradient id="goldBannerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#946A17" />
+      <stop offset="30%" stop-color="#C99A16" />
+      <stop offset="50%" stop-color="#F5C542" />
+      <stop offset="70%" stop-color="#C99A16" />
+      <stop offset="100%" stop-color="#946A17" />
+    </linearGradient>
+
+    <linearGradient id="goldRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C99A16" />
+      <stop offset="50%" stop-color="#F5C542" />
+      <stop offset="100%" stop-color="#946A17" />
+    </linearGradient>
+
+    <!-- Flame Gradients -->
+    <linearGradient id="flameRedGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#B82613" />
+      <stop offset="70%" stop-color="#D93620" />
+      <stop offset="100%" stop-color="#F07819" />
+    </linearGradient>
+
+    <linearGradient id="flameOrangeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#D93620" />
+      <stop offset="60%" stop-color="#F07819" />
+      <stop offset="100%" stop-color="#F5C542" />
+    </linearGradient>
+
+    <linearGradient id="flameYellowGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#F07819" />
+      <stop offset="50%" stop-color="#F5C542" />
+      <stop offset="100%" stop-color="#FFFDF8" />
+    </linearGradient>
+
+    <filter id="goldShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#17130D" flood-opacity="0.25" />
+    </filter>
+
+    <filter id="flameGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#F07819" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Fondo Blanco Cuadrado con bordes suaves -->
+  <rect width="512" height="512" rx="36" fill="url(#bgLightGrad)" />
+
+  <!-- EMBLEMA CIRCULAR EXTERIOR -->
+  <circle cx="256" cy="256" r="236" fill="none" stroke="url(#goldRingGrad)" stroke-width="6" />
+  <circle cx="256" cy="256" r="226" fill="none" stroke="#E8DCC4" stroke-width="2" />
+  <circle cx="256" cy="256" r="218" fill="none" stroke="#946A17" stroke-width="1.5" stroke-dasharray="4,6" />
+
+  <!-- Fondo interior del emblema -->
+  <circle cx="256" cy="256" r="214" fill="#FFFDF8" />
+
+  <!-- ================= LLAMAS DE FUEGO (SUPERIOR) ================= -->
+  <g id="flames" filter="url(#flameGlow)">
+    <!-- Capa 1: Llama exterior roja -->
+    <path d="M 256 50
+             C 278 88, 310 115, 310 152
+             C 310 178, 296 195, 282 205
+             C 298 190, 318 165, 312 138
+             C 328 160, 336 188, 332 216
+             C 328 244, 305 268, 285 272
+             C 245 280, 205 270, 185 238
+             C 175 220, 172 195, 182 170
+             C 188 185, 200 200, 218 206
+             C 208 178, 208 145, 224 116
+             C 232 140, 245 158, 252 148
+             C 256 120, 252 82, 256 50 Z"
+          fill="url(#flameRedGrad)" />
+
+    <!-- Capa 2: Llama intermedia naranja -->
+    <path d="M 256 82
+             C 272 112, 296 135, 296 166
+             C 296 188, 284 204, 272 212
+             C 285 198, 298 178, 294 156
+             C 306 175, 312 198, 308 220
+             C 304 240, 286 256, 268 260
+             C 238 266, 212 258, 198 232
+             C 192 218, 192 198, 200 180
+             C 204 192, 214 204, 228 208
+             C 220 186, 222 160, 234 136
+             C 240 154, 250 166, 254 158
+             C 257 136, 254 106, 256 82 Z"
+          fill="url(#flameOrangeGrad)" />
+
+    <!-- Capa 3: Núcleo cálido amarillo -->
+    <path d="M 256 118
+             C 268 140, 284 158, 282 182
+             C 280 198, 270 210, 260 216
+             C 268 205, 276 190, 272 172
+             C 278 186, 280 204, 276 220
+             C 272 235, 260 246, 248 248
+             C 228 252, 214 244, 206 226
+             C 202 216, 204 202, 210 190
+             C 212 198, 218 206, 228 210
+             C 224 194, 226 174, 236 156
+             C 240 168, 248 176, 252 170
+             C 255 154, 254 134, 256 118 Z"
+          fill="url(#flameYellowGrad)" />
+  </g>
+
+  <!-- ================= ORNAMENTOS Y CUBIERTOS (INFERIOR) ================= -->
+  <g id="ornaments" transform="translate(0, 20)">
+    <!-- Tenedor y Cuchillo de Rotisería Cruzados -->
+    <g id="cutlery" stroke="#C99A16" fill="#C99A16" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Cuchillo rotisero inclinado (izquierda a derecha) -->
+      <g transform="rotate(32, 256, 395)">
+        <!-- Hoja ancha de chef/asador -->
+        <path d="M 254 340 C 254 315, 262 295, 264 285 C 265 295, 268 318, 268 340 Z" fill="#946A17" />
+        <path d="M 255 340 L 255 300 C 257 305, 263 325, 263 340 Z" fill="#F5C542" />
+        <!-- Mango -->
+        <rect x="258" y="342" width="6" height="42" rx="3" fill="#946A17" />
+        <!-- Remaches -->
+        <circle cx="261" cy="352" r="1.5" fill="#F5C542" />
+        <circle cx="261" cy="368" r="1.5" fill="#F5C542" />
+      </g>
+
+      <!-- Tenedor de asado de dos o tres dientes inclinado (derecha a izquierda) -->
+      <g transform="rotate(-32, 256, 395)">
+        <!-- Dientes del tenedor -->
+        <path d="M 252 288 L 252 322 M 256 285 L 256 324 M 260 288 L 260 322" stroke="#946A17" stroke-width="2.5" fill="none" />
+        <path d="M 250 322 C 250 334, 262 334, 262 322 Z" fill="#946A17" />
+        <!-- Mango -->
+        <rect x="253" y="340" width="6" height="44" rx="3" fill="#946A17" />
+        <!-- Remaches -->
+        <circle cx="256" cy="352" r="1.5" fill="#F5C542" />
+        <circle cx="256" cy="368" r="1.5" fill="#F5C542" />
+      </g>
+    </g>
+
+    <!-- Hojas de Laurel / Ornamentos dorados a los lados -->
+    <g id="laurel-wreath" fill="none" stroke="#C99A16" stroke-width="2">
+      <!-- Rama Izquierda -->
+      <path d="M 180 395 C 160 365, 155 330, 160 300" stroke="#946A17" stroke-width="2.5" />
+      <path d="M 160 310 Q 150 305 146 312 Q 154 322 160 310" fill="#C99A16" />
+      <path d="M 162 335 Q 150 332 148 340 Q 158 348 162 335" fill="#F5C542" />
+      <path d="M 170 360 Q 158 360 156 370 Q 168 374 170 360" fill="#C99A16" />
+      <path d="M 182 382 Q 172 384 172 394 Q 184 395 182 382" fill="#946A17" />
+
+      <!-- Rama Derecha -->
+      <path d="M 332 395 C 352 365, 357 330, 352 300" stroke="#946A17" stroke-width="2.5" />
+      <path d="M 352 310 Q 362 305 366 312 Q 358 322 352 310" fill="#C99A16" />
+      <path d="M 350 335 Q 362 332 364 340 Q 354 348 350 335" fill="#F5C542" />
+      <path d="M 342 360 Q 354 360 356 370 Q 344 374 342 360" fill="#C99A16" />
+      <path d="M 330 382 Q 340 384 340 394 Q 328 395 330 382" fill="#946A17" />
+    </g>
+
+    <!-- Subtítulo ROTISERÍA -->
+    <rect x="180" y="415" width="152" height="24" rx="12" fill="#FFFDF8" stroke="#C99A16" stroke-width="1.5" />
+    <text x="256" y="432"
+          font-family="'Playfair Display', 'Cinzel', Georgia, serif"
+          font-size="13"
+          font-weight="900"
+          letter-spacing="5"
+          fill="#946A17"
+          text-anchor="middle">ROTISERÍA</text>
+  </g>
+
+  <!-- ================= BANDA DORADA CENTRAL (BANNER) ================= -->
+  <g id="golden-banner" filter="url(#goldShadow)">
+    <!-- Cintas plegadas laterales (fondo de la banda) -->
+    <path d="M 46 250 L 16 280 L 46 310 L 80 295 L 80 265 Z" fill="#75520D" stroke="#503708" stroke-width="2" />
+    <path d="M 466 250 L 496 280 L 466 310 L 432 295 L 432 265 Z" fill="#75520D" stroke="#503708" stroke-width="2" />
+
+    <!-- Triángulos de doblez (sombra detrás del cuerpo principal) -->
+    <polygon points="76,285 100,285 100,312" fill="#503708" />
+    <polygon points="436,285 412,285 412,312" fill="#503708" />
+
+    <!-- Cuerpo principal de la banda dorada -->
+    <path d="M 50 248
+             C 120 238, 392 238, 462 248
+             L 452 308
+             C 382 318, 130 318, 60 308 Z"
+          fill="url(#goldBannerGrad)"
+          stroke="#946A17"
+          stroke-width="3" />
+
+    <!-- Filete decorativo interno en la banda -->
+    <path d="M 62 255
+             C 126 247, 386 247, 450 255
+             L 444 301
+             C 380 309, 132 309, 68 301 Z"
+          fill="none"
+          stroke="#FFFDF8"
+          stroke-width="1.2"
+          opacity="0.8" />
+
+    <!-- TEXTO PRINCIPAL: EL KAKÚ -->
+    <!-- Sombra elegante del texto -->
+    <text x="256" y="291"
+          font-family="'Playfair Display', 'Cinzel', 'Times New Roman', Georgia, serif"
+          font-size="46"
+          font-weight="900"
+          letter-spacing="4"
+          fill="#17130D"
+          opacity="0.25"
+          text-anchor="middle">EL KAKÚ</text>
+
+    <!-- Texto visible nítido con contraste gourmet -->
+    <text x="256" y="289"
+          font-family="'Playfair Display', 'Cinzel', 'Times New Roman', Georgia, serif"
+          font-size="46"
+          font-weight="900"
+          letter-spacing="4"
+          fill="#292116"
+          text-anchor="middle">EL KAKÚ</text>
+  </g>
+</svg>
