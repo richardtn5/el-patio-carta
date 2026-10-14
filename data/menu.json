@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-10-13T09:53:40.040Z",
+  "generatedAt": "2026-10-14T07:14:21.113Z",
   "business": {
     "name": "El Kaku",
     "menuTitle": "Carta Digital El Kaku",
@@ -8,33 +8,196 @@
     "currencySymbol": "$",
     "deliveryEnabled": true,
     "pickupEnabled": true,
-    "deliveryFee": 1500,
-    "welcomeText": "Bienvenidos a El Kaku",
-    "contactText": "",
+    "deliveryFeeMode": "free",
+    "deliveryFee": 0,
+    "welcomeText": "¡Bienvenidos a El Kaku! Sabores únicos, hamburguesas gourmet, lomitos y pizzas a la piedra.",
+    "contactText": "San Martín 450 • Envíos a domicilio y retiro en mostrador",
     "theme": {
-      "primary": "#C99A16",
-      "secondary": "#F07819",
-      "background": "#17130D",
-      "surface": "#241D14",
-      "text": "#FFFDF8",
-      "accent": "#D93620"
+      "primary": "#f59e0b",
+      "secondary": "#e11d48",
+      "background": "#0f172a",
+      "surface": "#1e293b",
+      "text": "#f8fafc",
+      "accent": "#22c55e"
     }
   },
   "categories": [
     {
-      "id": "cat_1",
-      "name": "Hamburguesas",
+      "id": "cat_promos",
+      "name": "Promociones",
+      "description": "Combos especiales para compartir al mejor precio",
       "sortOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "cat_hamburguesas",
+      "name": "Hamburguesas",
+      "description": "Medallones 100% de ternera a la chapa en pan brioche artesanal",
+      "sortOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "cat_lomitos",
+      "name": "Lomitos",
+      "description": "Tiernos bifes de lomo seleccionados en pan casero crocante",
+      "sortOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "cat_pizzas",
+      "name": "Pizzas",
+      "description": "Masa madre madurada 48hs con abundante mozzarella de primera",
+      "sortOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "cat_empanadas",
+      "name": "Empanadas",
+      "description": "Rellenos tradicionales súper jugosos al horno de barro",
+      "sortOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "cat_papas",
+      "name": "Papas y Acompañamientos",
+      "description": "Papas rústicas cortadas a mano y bastones crocantes",
+      "sortOrder": 6,
+      "isActive": true
+    },
+    {
+      "id": "cat_bebidas",
+      "name": "Bebidas",
+      "description": "Gaseosas de litro y medio, cervezas artesanales y aguas",
+      "sortOrder": 7,
+      "isActive": true
+    },
+    {
+      "id": "cat_postres",
+      "name": "Postres",
+      "description": "Dulzuras artesanales para el final perfecto",
+      "sortOrder": 8,
       "isActive": true
     }
   ],
   "products": [
     {
-      "id": "p1",
-      "name": "Burger Activa",
-      "description": "Rica burger",
-      "basePrice": 12000,
-      "categoryId": "cat_1",
+      "id": "prod_promo_1",
+      "name": "Combo Kaku: 2 Doble Cheddar + Papas Grandes",
+      "description": "Dos hamburguesas con doble carne y doble cheddar acompañadas de una porción gigante de papas rústicas.",
+      "basePrice": 31000,
+      "categoryId": "cat_promos",
+      "images": [],
+      "mainImageIndex": 0,
+      "sortOrder": 1,
+      "isAvailable": true,
+      "optionGroupIds": [
+        "opt_salsas"
+      ]
+    },
+    {
+      "id": "prod_burger_1",
+      "name": "Hamburguesa Doble Cheddar Bacon",
+      "description": "Dos medallones de ternera de 120g, cuatro fetas de cheddar cremoso fundido y abundante panceta crocante.",
+      "basePrice": 14500,
+      "categoryId": "cat_hamburguesas",
+      "images": [],
+      "mainImageIndex": 0,
+      "sortOrder": 1,
+      "isAvailable": true,
+      "optionGroupIds": [
+        "opt_coccion",
+        "opt_pan",
+        "opt_extras_burger",
+        "opt_salsas"
+      ]
+    },
+    {
+      "id": "prod_burger_2",
+      "name": "Hamburguesa Kaku Especial",
+      "description": "Doble carne, queso provoleta crocante a la plancha, cebolla caramelizada, rúcula fresca y mayonesa ahumada.",
+      "basePrice": 15800,
+      "categoryId": "cat_hamburguesas",
+      "images": [],
+      "mainImageIndex": 0,
+      "sortOrder": 2,
+      "isAvailable": true,
+      "optionGroupIds": [
+        "opt_coccion",
+        "opt_pan",
+        "opt_extras_burger",
+        "opt_salsas"
+      ]
+    },
+    {
+      "id": "prod_lomito_1",
+      "name": "Lomito Completo Cordobés",
+      "description": "Tierno bife de lomo a la plancha, jamón cocido, queso, lechuga capuchina, tomate redondo, huevo frito y mayonesa casera en pan baguette artesanal.",
+      "basePrice": 17200,
+      "categoryId": "cat_lomitos",
+      "images": [],
+      "mainImageIndex": 0,
+      "sortOrder": 1,
+      "isAvailable": true,
+      "optionGroupIds": [
+        "opt_salsas"
+      ]
+    },
+    {
+      "id": "prod_pizza_1",
+      "name": "Pizza Napolitana Especial con Jamón",
+      "description": "Masa madre madurada 48hs al horno, salsa de tomates italianos, abundante mozzarella, jamón cocido, rodajas de tomate y provenzal.",
+      "basePrice": 15400,
+      "categoryId": "cat_pizzas",
+      "images": [],
+      "mainImageIndex": 0,
+      "sortOrder": 1,
+      "isAvailable": true,
+      "optionGroupIds": []
+    },
+    {
+      "id": "prod_empanadas_1",
+      "name": "Docena de Empanadas Criollas de Carne Cortada a Cuchillo",
+      "description": "12 empanadas de masa casera bien hojaldrada, carne tierna, cebollita de verdeo, pimentón dulce y comino norteño.",
+      "basePrice": 14500,
+      "categoryId": "cat_empanadas",
+      "images": [],
+      "mainImageIndex": 0,
+      "sortOrder": 1,
+      "isAvailable": true,
+      "optionGroupIds": []
+    },
+    {
+      "id": "prod_papas_1",
+      "name": "Papas Rústicas Cheddar y Verdeo",
+      "description": "Porción abundante de papas rústicas con piel, crocantes por fuera y tiernas por dentro, bañadas en queso cheddar y verdeo fresco.",
+      "basePrice": 8900,
+      "categoryId": "cat_papas",
+      "images": [],
+      "mainImageIndex": 0,
+      "sortOrder": 1,
+      "isAvailable": true,
+      "optionGroupIds": [
+        "opt_salsas"
+      ]
+    },
+    {
+      "id": "prod_bebida_1",
+      "name": "Cerveza Patagonia Amber Lager 730ml",
+      "description": "Cerveza de sabor balanceado, con sutiles notas a caramelo y tostado. Servida helada.",
+      "basePrice": 5800,
+      "categoryId": "cat_bebidas",
+      "images": [],
+      "mainImageIndex": 0,
+      "sortOrder": 1,
+      "isAvailable": true,
+      "optionGroupIds": []
+    },
+    {
+      "id": "prod_postre_1",
+      "name": "Volcán Tibio de Chocolate con Helado",
+      "description": "Bizcochuelo tibio relleno de chocolate belga fundido, acompañado con una bocha de helado de crema americana artesanal.",
+      "basePrice": 6500,
+      "categoryId": "cat_postres",
       "images": [],
       "mainImageIndex": 0,
       "sortOrder": 1,
@@ -42,5 +205,125 @@
       "optionGroupIds": []
     }
   ],
-  "optionGroups": []
+  "optionGroups": [
+    {
+      "id": "opt_coccion",
+      "name": "Punto de cocción",
+      "type": "single",
+      "min": 1,
+      "max": 1,
+      "isRequired": true,
+      "isActive": true,
+      "options": [
+        {
+          "id": "coc_1",
+          "name": "A punto (jugoso al centro)",
+          "price": 0
+        },
+        {
+          "id": "coc_2",
+          "name": "Cocido tradicional",
+          "price": 0
+        },
+        {
+          "id": "coc_3",
+          "name": "Bien cocido",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "id": "opt_pan",
+      "name": "Tipo de pan",
+      "type": "single",
+      "min": 1,
+      "max": 1,
+      "isRequired": true,
+      "isActive": true,
+      "options": [
+        {
+          "id": "pan_1",
+          "name": "Pan Brioche mantecoso",
+          "price": 0
+        },
+        {
+          "id": "pan_2",
+          "name": "Pan de Papa esponjoso",
+          "price": 0
+        },
+        {
+          "id": "pan_3",
+          "name": "Pan Sin TACC (Apto Celíacos)",
+          "price": 1200
+        }
+      ]
+    },
+    {
+      "id": "opt_extras_burger",
+      "name": "Adicionales para tu Hamburguesa",
+      "type": "multiple",
+      "min": 0,
+      "max": 5,
+      "isRequired": false,
+      "isActive": true,
+      "options": [
+        {
+          "id": "ext_1",
+          "name": "Panceta ahumada crocante",
+          "price": 1500
+        },
+        {
+          "id": "ext_2",
+          "name": "Doble Cheddar fundido",
+          "price": 1200
+        },
+        {
+          "id": "ext_3",
+          "name": "Huevo a la chapa",
+          "price": 800
+        },
+        {
+          "id": "ext_4",
+          "name": "Medallón extra de carne 150g",
+          "price": 2800
+        },
+        {
+          "id": "ext_5",
+          "name": "Cebolla caramelizada al Malbec",
+          "price": 900
+        }
+      ]
+    },
+    {
+      "id": "opt_salsas",
+      "name": "Salsas a elección (hasta 3)",
+      "type": "multiple",
+      "min": 0,
+      "max": 3,
+      "isRequired": false,
+      "isActive": true,
+      "options": [
+        {
+          "id": "sal_1",
+          "name": "Mayonesa casera de ajo asado",
+          "price": 0
+        },
+        {
+          "id": "sal_2",
+          "name": "Barbacoa ahumada artesanal",
+          "price": 0
+        },
+        {
+          "id": "sal_3",
+          "name": "Mostaza antigua con miel",
+          "price": 0
+        },
+        {
+          "id": "sal_4",
+          "name": "Salsa Kaku picante suave",
+          "price": 0
+        }
+      ]
+    }
+  ]
 }

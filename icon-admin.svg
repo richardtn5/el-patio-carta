@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background subtle dark gradient for Admin -->
+    <linearGradient id="bgDarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241D14" />
+      <stop offset="100%" stop-color="#17130D" />
+    </linearGradient>
+
+    <!-- Gold Gradients -->
+    <linearGradient id="goldBannerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#946A17" />
+      <stop offset="30%" stop-color="#C99A16" />
+      <stop offset="50%" stop-color="#F5C542" />
+      <stop offset="70%" stop-color="#C99A16" />
+      <stop offset="100%" stop-color="#946A17" />
+    </linearGradient>
+
+    <linearGradient id="goldRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C99A16" />
+      <stop offset="50%" stop-color="#F5C542" />
+      <stop offset="100%" stop-color="#946A17" />
+    </linearGradient>
+
+    <!-- Flame Gradients -->
+    <linearGradient id="flameRedGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#B82613" />
+      <stop offset="70%" stop-color="#D93620" />
+      <stop offset="100%" stop-color="#F07819" />
+    </linearGradient>
+
+    <linearGradient id="flameOrangeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#D93620" />
+      <stop offset="60%" stop-color="#F07819" />
+      <stop offset="100%" stop-color="#F5C542" />
+    </linearGradient>
+
+    <linearGradient id="flameYellowGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#F07819" />
+      <stop offset="50%" stop-color="#F5C542" />
+      <stop offset="100%" stop-color="#FFFDF8" />
+    </linearGradient>
+
+    <filter id="goldShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+
+    <filter id="flameGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#F07819" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Fondo Premium Cuadrado para el Admin -->
+  <rect width="512" height="512" rx="48" fill="url(#bgDarkGrad)" stroke="#C99A16" stroke-width="4" />
+
+  <!-- EMBLEMA CIRCULAR EXTERIOR -->
+  <circle cx="256" cy="240" r="216" fill="none" stroke="url(#goldRingGrad)" stroke-width="5" />
+  <circle cx="256" cy="240" r="208" fill="none" stroke="#3D3021" stroke-width="2" />
+  <circle cx="256" cy="240" r="200" fill="none" stroke="#C99A16" stroke-width="1.5" stroke-dasharray="4,6" />
+
+  <!-- Fondo interior del emblema -->
+  <circle cx="256" cy="240" r="196" fill="#1F1810" />
+
+  <!-- LLAMAS DE FUEGO -->
+  <g id="flames" filter="url(#flameGlow)">
+    <path d="M 256 50
+             C 278 88, 310 115, 310 152
+             C 310 178, 296 195, 282 205
+             C 298 190, 318 165, 312 138
+             C 328 160, 336 188, 332 216
+             C 328 244, 305 268, 285 272
+             C 245 280, 205 270, 185 238
+             C 175 220, 172 195, 182 170
+             C 188 185, 200 200, 218 206
+             C 208 178, 208 145, 224 116
+             C 232 140, 245 158, 252 148
+             C 256 120, 252 82, 256 50 Z"
+          fill="url(#flameRedGrad)" />
+
+    <path d="M 256 82
+             C 272 112, 296 135, 296 166
+             C 296 188, 284 204, 272 212
+             C 285 198, 298 178, 294 156
+             C 306 175, 312 198, 308 220
+             C 304 240, 286 256, 268 260
+             C 238 266, 212 258, 198 232
+             C 192 218, 192 198, 200 180
+             C 204 192, 214 204, 228 208
+             C 220 186, 222 160, 234 136
+             C 240 154, 250 166, 254 158
+             C 257 136, 254 106, 256 82 Z"
+          fill="url(#flameOrangeGrad)" />
+
+    <path d="M 256 118
+             C 268 140, 284 158, 282 182
+             C 280 198, 270 210, 260 216
+             C 268 205, 276 190, 272 172
+             C 278 186, 280 204, 276 220
+             C 272 235, 260 246, 248 248
+             C 228 252, 214 244, 206 226
+             C 202 216, 204 202, 210 190
+             C 212 198, 218 206, 228 210
+             C 224 194, 226 174, 236 156
+             C 240 168, 248 176, 252 170
+             C 255 154, 254 134, 256 118 Z"
+          fill="url(#flameYellowGrad)" />
+  </g>
+
+  <!-- BANDA DORADA CENTRAL (BANNER) -->
+  <g id="golden-banner" filter="url(#goldShadow)">
+    <path d="M 50 228
+             C 120 218, 392 218, 462 228
+             L 452 288
+             C 382 298, 130 298, 60 288 Z"
+          fill="url(#goldBannerGrad)"
+          stroke="#946A17"
+          stroke-width="3" />
+
+    <path d="M 62 235
+             C 126 227, 386 227, 450 235
+             L 444 281
+             C 380 289, 132 289, 68 281 Z"
+          fill="none"
+          stroke="#FFFDF8"
+          stroke-width="1.2"
+          opacity="0.8" />
+
+    <text x="256" y="270"
+          font-family="'Playfair Display', 'Cinzel', Georgia, serif"
+          font-size="44"
+          font-weight="900"
+          letter-spacing="4"
+          fill="#17130D"
+          opacity="0.3"
+          text-anchor="middle">EL KAKÚ</text>
+
+    <text x="256" y="268"
+          font-family="'Playfair Display', 'Cinzel', Georgia, serif"
+          font-size="44"
+          font-weight="900"
+          letter-spacing="4"
+          fill="#241D14"
+          text-anchor="middle">EL KAKÚ</text>
+  </g>
+
+  <!-- INSIGNIA DESTACADA: ADMIN -->
+  <g id="admin-badge" filter="url(#goldShadow)">
+    <rect x="120" y="340" width="272" height="64" rx="32" fill="#C99A16" stroke="#F5C542" stroke-width="3" />
+    <rect x="124" y="344" width="264" height="56" rx="28" fill="#17130D" />
+    <text x="256" y="381"
+          font-family="system-ui, -apple-system, sans-serif"
+          font-size="28"
+          font-weight="900"
+          letter-spacing="6"
+          fill="#F5C542"
+          text-anchor="middle">ADMIN</text>
+  </g>
+</svg>
